@@ -1,0 +1,29 @@
+:root {
+  /* 银灰主色 #90A4AE —— 与已建各仓主色均不重复 */
+  --primary: #90A4AE;
+  --primary-deep: #607D8B;
+  --primary-soft: #B0BEC5;
+  --primary-wash: #ECEFF1;
+  --ink: #263238;
+  --muted: #78909C;
+  --line: #CFD8DC;
+  --bg: #F4F6F7;
+
+  --el-color-primary: #90A4AE;
+  --el-color-primary-light-3: #A9B7BF;
+  --el-color-primary-light-5: #C0CAD0;
+  --el-color-primary-light-7: #DaE1E5;
+  --el-color-primary-light-8: #E4E9EC;
+  --el-color-primary-light-9: #ECEFF1;
+  --el-color-primary-dark-2: #607D8B;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "PingFang SC", "Microsoft YaHei", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 14px;
+}
